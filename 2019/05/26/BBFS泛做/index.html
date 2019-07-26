@@ -32,23 +32,23 @@
 
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif images apple-touch-icon-next.png?v="7.2.0"">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/icon-32.png?v=7.2.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif images icon-32.png?v="7.2.0"">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/icon-32.png?v=7.2.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif images icon-32.png?v="7.2.0"">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=7.2.0" color="#222">
-
-
-
+  <link rel="mask-icon" href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif images logo.svg?v="7.2.0"" color="#222">
 
 
 
-<link rel="stylesheet" href="/css/main.css?v=7.2.0">
+
+
+
+<link rel="stylesheet" href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif css main.css?v="7.2.0"/">
 
 
 
@@ -105,7 +105,7 @@
 
 
 
-<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+<link rel="stylesheet" href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif lib font-awesome css font-awesome.min.css?v="4.7.0"/">
 
 
 
@@ -117,7 +117,7 @@
 <script id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
-    root: '/',
+    root: '/blog/:if expand("%") == ""|browse confirm w|else|confirm w|endif/',
     scheme: 'Gemini',
     version: '7.2.0',
     sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
@@ -144,28 +144,28 @@
   };
 </script>
 
-  <meta name="description" content="水题愉悦身心系列">
+  <meta name="description" content="$B-BFS$其实就是Binary-system BFS的简写，或者更详细的说只是一种建图的方式。">
 <meta name="keywords" content="题解">
 <meta property="og:type" content="article">
-<meta property="og:title" content="$B-BFS$泛做">
-<meta property="og:url" content="http://www.orchidany.cf/2019/05/26/BBFS泛做/index.html">
+<meta property="og:title" content="$B-BFS￥泛做">
+<meta property="og:url" content="http://www.orchidany.cf/blog/2019/05/26/BBFS泛做/index.html">
 <meta property="og:site_name" content="Orchidany&#39;w blog">
-<meta property="og:description" content="水题愉悦身心系列">
+<meta property="og:description" content="$B-BFS$其实就是Binary-system BFS的简写，或者更详细的说只是一种建图的方式。">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-07-24T02:24:01.165Z">
+<meta property="og:updated_time" content="2019-07-24T14:04:21.865Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="$B-BFS$泛做">
-<meta name="twitter:description" content="水题愉悦身心系列">
+<meta name="twitter:title" content="$B-BFS￥泛做">
+<meta name="twitter:description" content="$B-BFS$其实就是Binary-system BFS的简写，或者更详细的说只是一种建图的方式。">
 
 
 
-  <link rel="alternate" href="/atom.xml" title="Orchidany'w blog" type="application/atom+xml">
+  <link rel="alternate" href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif atom.xml" title="Orchidany'w blog" type="application/atom+xml">
 
 
 
   
   
-  <link rel="canonical" href="http://www.orchidany.cf/2019/05/26/BBFS泛做/">
+  <link rel="canonical" href="http://www.orchidany.cf/blog/2019/05/26/BBFS泛做/">
 
 
 
@@ -176,7 +176,7 @@
 </script>
 
   
-  <title>$B-BFS$泛做 | Orchidany'w blog</title>
+  <title>$B-BFS￥泛做 | Orchidany'w blog</title>
   
 
 
@@ -233,7 +233,7 @@
     
 
     <div class="custom-logo-site-title">
-      <a href="/" class="brand" rel="start">
+      <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif " class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
         <span class="site-title">Orchidany'w blog</span>
         <span class="logo-line-after"><i></i></span>
@@ -275,7 +275,7 @@
 
     
 
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
+    <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif " rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
 
   </li>
         
@@ -291,7 +291,7 @@
 
     
 
-    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>About</a>
+    <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif about " rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>About</a>
 
   </li>
         
@@ -307,7 +307,7 @@
 
     
 
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Tags</a>
+    <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif tags " rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Tags</a>
 
   </li>
         
@@ -323,7 +323,7 @@
 
     
 
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Categories</a>
+    <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif categories " rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Categories</a>
 
   </li>
         
@@ -339,7 +339,7 @@
 
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
+    <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif archives " rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
 
   </li>
         
@@ -355,7 +355,7 @@
 
     
 
-    <a href="/Friends/" rel="section"><i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br>Friends</a>
+    <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif friends " rel="section"><i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br>Friends</a>
 
   </li>
 
@@ -432,12 +432,12 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.orchidany.cf/2019/05/26/BBFS泛做/">
+    <link 26 2019 itemprop="mainEntityOfPage" href="http://www.orchidany.cf/blog/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif 05 bbfs泛做 ">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Orchidany">
       <meta itemprop="description" content="For code, science, tech. and more">
-      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="image" content="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif images avatar.png">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -449,7 +449,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">$B-BFS$泛做
+          <h1 class="post-title" itemprop="name headline">$B-BFS￥泛做
 
               
             
@@ -490,7 +490,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2019-07-24 10:24:01" itemprop="dateModified" datetime="2019-07-24T10:24:01+08:00">2019-07-24</time>
+                <time title="Modified: 2019-07-24 22:04:21" itemprop="dateModified" datetime="2019-07-24T22:04:21+08:00">2019-07-24</time>
               </span>
             
           
@@ -504,14 +504,14 @@
                 <span class="post-meta-item-text">In</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/题解/" itemprop="url" rel="index"><span itemprop="name">题解</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif categories 题解 " itemprop="url" rel="index"><span itemprop="name">题解</span></a></span>
 
                 
                 
                   , 
                 
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/题解/BZOJ/" itemprop="url" rel="index"><span itemprop="name">BZOJ</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif categories 题解 bzoj " itemprop="url" rel="index"><span itemprop="name">BZOJ</span></a></span>
 
                 
                 
@@ -529,8 +529,8 @@
                 </span>
             
                 <span class="post-meta-item-text">Comments: </span>
-                <a href="/2019/05/26/BBFS泛做/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2019/05/26/BBFS泛做/" itemprop="commentCount"></span>
+                <a 26 2019 href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif 05 bbfs泛做 #comments" itemprop="discussionUrl">
+                  <span 26 2019 class="post-comments-count valine-comment-count" data-xid="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif 05 bbfs泛做 " itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -557,8 +557,6 @@
           
 
           
-            <div class="post-description">水题愉悦身心系列</div>
-          
 
         </div>
       </header>
@@ -573,7 +571,8 @@
       
 
       
-        <h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p> 就是瞎做题，最近在一股脑把做过的题都整理一遍……包括水题</p>
+        <link rel="stylesheet" class="aplayer-secondary-style-marker" href="/QWQ/assets/css/APlayer.min.css"><script src="/QWQ/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>$B-BFS$其实就是Binary-system BFS的简写，或者更详细的说只是一种建图的方式。<br><a id="more"></a></p>
+<h1 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h1><p> 就是瞎做题，最近在一股脑把做过的题都整理一遍……包括水题</p>
 <h1 id="A-HAOI2008-移动玩具"><a href="#A-HAOI2008-移动玩具" class="headerlink" title="A [HAOI2008]移动玩具"></a>A [HAOI2008]移动玩具</h1><p><a href="https://www.lydsy.com/JudgeOnline/problem.php?id=1054" target="_blank" rel="noopener">bzoj1054</a></p>
 <p>据说做这种题会有什么很奇妙的做法，但我的做法就是给每个二进制状态标一个号，sb连边之后再去暴力BFS求最短路……反正就是一道SB题就对了。</p>
 <figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;queue&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> MAXN 20</span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> rr register </span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">define</span> zt (1 &lt;&lt; 16)</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span> ;</span><br><span class="line"><span class="class"><span class="keyword">struct</span> <span class="title">Edge</span>&#123;</span></span><br><span class="line">	<span class="keyword">int</span> to, next ;</span><br><span class="line">&#125;E[zt &lt;&lt; <span class="number">6</span>] ; <span class="keyword">int</span> head[zt &lt;&lt; <span class="number">1</span>], ct ;</span><br><span class="line"><span class="keyword">int</span> dx[<span class="number">4</span>] = &#123;<span class="number">1</span>, <span class="number">0</span>, <span class="number">-1</span>, <span class="number">0</span>&#125;, dy[<span class="number">4</span>] = &#123;<span class="number">0</span>, <span class="number">1</span>, <span class="number">0</span>, <span class="number">-1</span>&#125; ; </span><br><span class="line"><span class="keyword">int</span> N, S, T_, A[MAXN][MAXN][MAXN], T[MAXN][MAXN], t[MAXN], dist[zt &lt;&lt; <span class="number">1</span>] ;  </span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">Add</span><span class="params">(<span class="keyword">int</span> u, <span class="keyword">int</span> v)</span></span>&#123;</span><br><span class="line">	E[++ ct].to = v, E[ct].next = head[u], head[u] = ct ; </span><br><span class="line">	E[++ ct].to = u, E[ct].next = head[v], head[v] = ct ; </span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">int</span> que[zt &lt;&lt; <span class="number">5</span>] ;</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">BFS</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="meta">#<span class="meta-keyword">define</span> to(k) E[k].to</span></span><br><span class="line">	<span class="keyword">register</span> <span class="keyword">int</span> he = <span class="number">1</span>, ta = <span class="number">0</span> ; </span><br><span class="line">	dist[S] = <span class="number">1</span>, que[++ ta] = S;</span><br><span class="line">	<span class="keyword">while</span> (he &lt;= ta)&#123;</span><br><span class="line">		rr <span class="keyword">int</span> now = que[he ++] ;</span><br><span class="line">		<span class="keyword">for</span> (rr <span class="keyword">int</span> k = head[now] ; k ; k = E[k].next)</span><br><span class="line">			<span class="keyword">if</span> (!dist[to(k)]) dist[to(k)] = dist[now] + <span class="number">1</span>, que[++ ta] = to(k) ;</span><br><span class="line">		<span class="keyword">if</span> (dist[T_]) <span class="keyword">return</span> ;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line"><span class="comment">//	freopen("1054.in", "r", stdin) ;</span></span><br><span class="line"><span class="comment">//	freopen("1054.out", "w", stdout) ;</span></span><br><span class="line">	N = (<span class="number">1</span> &lt;&lt; <span class="number">16</span>) - <span class="number">1</span> ;</span><br><span class="line">	<span class="keyword">for</span> (rr <span class="keyword">int</span> i = <span class="number">0</span> ; i &lt;= N ; ++ i)&#123;</span><br><span class="line">		<span class="built_in">memset</span>(t, <span class="number">0</span>, <span class="keyword">sizeof</span>(t)) ;</span><br><span class="line">		<span class="keyword">register</span> <span class="keyword">int</span> kans = <span class="number">0</span>, tot = <span class="number">0</span>, cnt = <span class="number">0</span> ; </span><br><span class="line">		<span class="keyword">for</span> (rr <span class="keyword">int</span> j = <span class="number">1</span> ; j &lt;= <span class="number">4</span> ; ++ j)</span><br><span class="line">			<span class="keyword">for</span> (rr <span class="keyword">int</span> k = <span class="number">1</span> ; k &lt;= <span class="number">4</span> ; ++ k)	</span><br><span class="line">				T[j][k] = (<span class="number">1</span> &lt;&lt; tot &amp; i) ? <span class="number">1</span> : <span class="number">0</span>, ++ tot ;<span class="comment">/*, cout &lt;&lt; T[j][k] &lt;&lt; " " ; </span></span><br><span class="line"><span class="comment">		cout &lt;&lt; "==================================" &lt;&lt; endl ; */</span></span><br><span class="line">		tot = <span class="number">0</span> ;<span class="comment">/*</span></span><br><span class="line"><span class="comment">		for (k = 1 ; k &lt;= 4 ; ++ k)</span></span><br><span class="line"><span class="comment">			for (l = 1 ; l &lt;= 4 ; ++ l)	</span></span><br><span class="line"><span class="comment">				kans |= ((1 &amp; T[k][l]) &lt;&lt; tot), ++ tot ;</span></span><br><span class="line"><span class="comment">		cout &lt;&lt; kans &lt;&lt; endl ; */</span></span><br><span class="line">		<span class="keyword">for</span> (rr <span class="keyword">int</span> j = <span class="number">1</span> ; j &lt;= <span class="number">4</span> ; ++ j)</span><br><span class="line">			<span class="keyword">for</span> (rr <span class="keyword">int</span> k = <span class="number">1</span> ; k &lt;= <span class="number">4</span> ; ++ k)</span><br><span class="line">				<span class="keyword">if</span> (T[j][k])</span><br><span class="line">					<span class="keyword">for</span> (rr <span class="keyword">int</span> l = <span class="number">0</span> ; l &lt; <span class="number">4</span> ; ++ l)&#123;</span><br><span class="line">						<span class="keyword">register</span> <span class="keyword">int</span> kx = j + dx[l], ky = k + dy[l] ;</span><br><span class="line">						<span class="keyword">if</span> (kx &lt; <span class="number">1</span> || ky &lt; <span class="number">1</span> || kx &gt; <span class="number">4</span> || ky &gt; <span class="number">4</span> || T[kx][ky]) <span class="keyword">continue</span> ;</span><br><span class="line">						<span class="built_in">memcpy</span>(A[++ cnt], T, <span class="keyword">sizeof</span>(T)), A[cnt][kx][ky] = <span class="number">1</span>, A[cnt][j][k] = <span class="number">0</span> ;  </span><br><span class="line">					&#125; </span><br><span class="line">		tot = <span class="number">0</span> ; </span><br><span class="line">		<span class="keyword">for</span> (rr <span class="keyword">int</span> j = <span class="number">1</span> ; j &lt;= cnt ; ++ j, tot = <span class="number">0</span>)&#123;</span><br><span class="line">			<span class="keyword">for</span> (rr <span class="keyword">int</span> k = <span class="number">1</span> ; k &lt;= <span class="number">4</span> ; ++ k)</span><br><span class="line">				<span class="keyword">for</span> (rr <span class="keyword">int</span> l = <span class="number">1</span> ; l &lt;= <span class="number">4</span> ; ++ l)	</span><br><span class="line">					t[j] |= (<span class="number">1</span> &amp; A[j][k][l]) &lt;&lt; tot, ++ tot ;</span><br><span class="line">			Add(i, t[j]) ; </span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">register</span> <span class="keyword">int</span> tot = <span class="number">0</span> ; </span><br><span class="line">	<span class="keyword">for</span> (rr <span class="keyword">int</span> i = <span class="number">1</span> ; i &lt;= <span class="number">4</span> ; ++ i)</span><br><span class="line">		<span class="keyword">for</span> (rr <span class="keyword">int</span> j = <span class="number">1</span> ; j &lt;= <span class="number">4</span> ; ++ j)</span><br><span class="line">			<span class="built_in">scanf</span>(<span class="string">"%1d"</span>, &amp;T[i][j]), S = S | ((<span class="number">1</span> &amp; T[i][j]) &lt;&lt; tot), ++ tot ;</span><br><span class="line">	tot = <span class="number">0</span> ;</span><br><span class="line">	<span class="keyword">for</span> (rr <span class="keyword">int</span> i = <span class="number">1</span> ; i &lt;= <span class="number">4</span> ; ++ i)</span><br><span class="line">		<span class="keyword">for</span> (rr <span class="keyword">int</span> j = <span class="number">1</span> ; j &lt;= <span class="number">4</span> ; ++ j)</span><br><span class="line">			<span class="built_in">scanf</span>(<span class="string">"%1d"</span>, &amp;T[i][j]), T_ = T_ | ((<span class="number">1</span> &amp; T[i][j]) &lt;&lt; tot) , ++ tot ;</span><br><span class="line">	BFS() ; <span class="built_in">cout</span> &lt;&lt; dist[T_] - <span class="number">1</span> &lt;&lt; <span class="built_in">endl</span> ; </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -611,7 +610,7 @@
         
         <div class="post-tags">
           
-            <a href="/tags/题解/" rel="tag"><i class="fa fa-tag"></i> 题解</a>
+            <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif tags 题解 " rel="tag"><i class="fa fa-tag"></i> 题解</a>
           
         </div>
       
@@ -624,7 +623,7 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/05/18/可持久化数据结构·主席树杂谈/" rel="next" title="可持久化数据结构·主席树杂谈">
+              <a 18 2019 href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif 05 可持久化数据结构·主席树杂谈 " rel="next" title="可持久化数据结构·主席树杂谈">
                 <i class="fa fa-chevron-left"></i> 可持久化数据结构·主席树杂谈
               </a>
             
@@ -634,7 +633,7 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/05/26/Prufer序列泛做/" rel="prev" title="Prufer序列泛做">
+              <a 26 2019 href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif 05 prufer序列泛做 " rel="prev" title="Prufer序列泛做">
                 Prufer序列泛做 <i class="fa fa-chevron-right"></i>
               </a>
             
@@ -699,7 +698,7 @@
 
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
   
-    <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="Orchidany">
+    <img class="site-author-image" itemprop="image" src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif images avatar.png" alt="Orchidany">
   
   <p class="site-author-name" itemprop="name">Orchidany</p>
   <div class="site-description motion-element" itemprop="description">For code, science, tech. and more</div>
@@ -710,9 +709,9 @@
     
       <div class="site-state-item site-state-posts">
         
-          <a href="/archives/">
+          <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif archives ">
         
-          <span class="site-state-item-count">40</span>
+          <span class="site-state-item-count">45</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -724,7 +723,7 @@
       <div class="site-state-item site-state-categories">
         
           
-            <a href="/categories/">
+            <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif categories ">
           
         
         
@@ -751,7 +750,9 @@
         
           
         
-        <span class="site-state-item-count">11</span>
+          
+        
+        <span class="site-state-item-count">12</span>
         <span class="site-state-item-name">categories</span>
         </a>
       </div>
@@ -763,7 +764,7 @@
       <div class="site-state-item site-state-tags">
         
           
-            <a href="/tags/">
+            <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif tags ">
           
         
         
@@ -842,7 +843,19 @@
         
           
         
-        <span class="site-state-item-count">37</span>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        <span class="site-state-item-count">43</span>
         <span class="site-state-item-name">tags</span>
         </a>
       </div>
@@ -852,7 +865,7 @@
 
 
   <div class="feed-link motion-element">
-    <a href="/atom.xml" rel="alternate">
+    <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif atom.xml" rel="alternate">
       <i class="fa fa-rss"></i>RSS
     </a>
   </div>
@@ -959,7 +972,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共88.4k字</span>
+  <span class="post-count">博客全站共105.5k字</span>
 </div>
 
         
@@ -1051,41 +1064,41 @@
 
 
   
-  <script src="/lib/jquery/index.js?v=3.4.1"></script>
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif lib jquery index.js?v="3.4.1""></script>
 
   
-  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif lib velocity velocity.min.js?v="1.2.1""></script>
 
   
-  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif lib velocity velocity.ui.min.js?v="1.2.1""></script>
 
 
 
 
-  <script src="/js/utils.js?v=7.2.0"></script>
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif js utils.js?v="7.2.0""></script>
 
-  <script src="/js/motion.js?v=7.2.0"></script>
-
-
-
-  
-  
-
-
-  <script src="/js/affix.js?v=7.2.0"></script>
-
-  <script src="/js/schemes/pisces.js?v=7.2.0"></script>
-
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif js motion.js?v="7.2.0""></script>
 
 
 
   
-  <script src="/js/scrollspy.js?v=7.2.0"></script>
-<script src="/js/post-details.js?v=7.2.0"></script>
+  
+
+
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif js affix.js?v="7.2.0""></script>
+
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif js schemes pisces.js?v="7.2.0""></script>
 
 
 
-  <script src="/js/next-boot.js?v=7.2.0"></script>
+
+  
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif js scrollspy.js?v="7.2.0""></script>
+<script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif js post-details.js?v="7.2.0""></script>
+
+
+
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif js next-boot.js?v="7.2.0""></script>
 
   
 
@@ -1198,7 +1211,7 @@
     } else if (/json$/i.test(search_path)) {
       isXml = false;
     }
-    var path = "/" + search_path;
+    var path = "/blog/:if expand("%") == ""|browse confirm w|else|confirm w|endif/" + search_path;
     // monitor main search box;
 
     var onPopupClose = function (e) {

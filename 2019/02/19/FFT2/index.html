@@ -32,23 +32,23 @@
 
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif images apple-touch-icon-next.png?v="7.2.0"">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/icon-32.png?v=7.2.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif images icon-32.png?v="7.2.0"">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/icon-32.png?v=7.2.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif images icon-32.png?v="7.2.0"">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=7.2.0" color="#222">
-
-
-
+  <link rel="mask-icon" href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif images logo.svg?v="7.2.0"" color="#222">
 
 
 
-<link rel="stylesheet" href="/css/main.css?v=7.2.0">
+
+
+
+<link rel="stylesheet" href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif css main.css?v="7.2.0"/">
 
 
 
@@ -105,7 +105,7 @@
 
 
 
-<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+<link rel="stylesheet" href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif lib font-awesome css font-awesome.min.css?v="4.7.0"/">
 
 
 
@@ -117,7 +117,7 @@
 <script id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
-    root: '/',
+    root: '/blog/:if expand("%") == ""|browse confirm w|else|confirm w|endif/',
     scheme: 'Gemini',
     version: '7.2.0',
     sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
@@ -148,17 +148,17 @@
 <meta name="keywords" content="学习笔记,多项式-FFT">
 <meta property="og:type" content="article">
 <meta property="og:title" content="多项式1.5·拆系数FFT">
-<meta property="og:url" content="http://www.orchidany.cf/2019/02/19/FFT2/index.html">
+<meta property="og:url" content="http://www.orchidany.cf/blog/2019/02/19/FFT2/index.html">
 <meta property="og:site_name" content="Orchidany&#39;w blog">
 <meta property="og:description" content="拆系数FFT主要用于解决不可思议的任意模数$NTT/FFT$问题，主要针对的就是【$Luogu4245·$任意模数NTT】这道题。">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="https://img.shields.io/badge/%E9%9A%BE%E5%BA%A6-%E7%9C%81%E9%80%89-darkviolet.svg">
-<meta property="og:image" content="http://www.orchidany.cf/2019/02/19/FFT2/1.png">
-<meta property="og:image" content="http://www.orchidany.cf/2019/02/19/FFT2/2.png">
-<meta property="og:image" content="http://www.orchidany.cf/2019/02/19/FFT2/3.png">
-<meta property="og:image" content="http://www.orchidany.cf/2019/02/19/FFT2/4.png">
-<meta property="og:image" content="http://www.orchidany.cf/2019/02/19/FFT2/5.png">
-<meta property="og:image" content="http://www.orchidany.cf/2019/02/19/FFT2/6.png">
+<meta property="og:image" content="http://www.orchidany.cf/blog/2019/02/19/FFT2/1.png">
+<meta property="og:image" content="http://www.orchidany.cf/blog/2019/02/19/FFT2/2.png">
+<meta property="og:image" content="http://www.orchidany.cf/blog/2019/02/19/FFT2/3.png">
+<meta property="og:image" content="http://www.orchidany.cf/blog/2019/02/19/FFT2/4.png">
+<meta property="og:image" content="http://www.orchidany.cf/blog/2019/02/19/FFT2/5.png">
+<meta property="og:image" content="http://www.orchidany.cf/blog/2019/02/19/FFT2/6.png">
 <meta property="og:updated_time" content="2019-05-18T06:58:52.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="多项式1.5·拆系数FFT">
@@ -167,13 +167,13 @@
 
 
 
-  <link rel="alternate" href="/atom.xml" title="Orchidany'w blog" type="application/atom+xml">
+  <link rel="alternate" href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif atom.xml" title="Orchidany'w blog" type="application/atom+xml">
 
 
 
   
   
-  <link rel="canonical" href="http://www.orchidany.cf/2019/02/19/FFT2/">
+  <link rel="canonical" href="http://www.orchidany.cf/blog/2019/02/19/FFT2/">
 
 
 
@@ -241,7 +241,7 @@
     
 
     <div class="custom-logo-site-title">
-      <a href="/" class="brand" rel="start">
+      <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif " class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
         <span class="site-title">Orchidany'w blog</span>
         <span class="logo-line-after"><i></i></span>
@@ -283,7 +283,7 @@
 
     
 
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
+    <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif " rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
 
   </li>
         
@@ -299,7 +299,7 @@
 
     
 
-    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>About</a>
+    <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif about " rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>About</a>
 
   </li>
         
@@ -315,7 +315,7 @@
 
     
 
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Tags</a>
+    <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif tags " rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Tags</a>
 
   </li>
         
@@ -331,7 +331,7 @@
 
     
 
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Categories</a>
+    <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif categories " rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Categories</a>
 
   </li>
         
@@ -347,7 +347,7 @@
 
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
+    <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif archives " rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
 
   </li>
         
@@ -363,7 +363,7 @@
 
     
 
-    <a href="/Friends/" rel="section"><i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br>Friends</a>
+    <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif friends " rel="section"><i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br>Friends</a>
 
   </li>
 
@@ -440,12 +440,12 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.orchidany.cf/2019/02/19/FFT2/">
+    <link 19 2019 itemprop="mainEntityOfPage" href="http://www.orchidany.cf/blog/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif 02 fft2 ">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Orchidany">
       <meta itemprop="description" content="For code, science, tech. and more">
-      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="image" content="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif images avatar.png">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -512,14 +512,14 @@
                 <span class="post-meta-item-text">In</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/学习笔记/" itemprop="url" rel="index"><span itemprop="name">学习笔记</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif categories 学习笔记 " itemprop="url" rel="index"><span itemprop="name">学习笔记</span></a></span>
 
                 
                 
                   , 
                 
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/学习笔记/多项式/" itemprop="url" rel="index"><span itemprop="name">多项式</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif categories 学习笔记 多项式 " itemprop="url" rel="index"><span itemprop="name">多项式</span></a></span>
 
                 
                 
@@ -537,8 +537,8 @@
                 </span>
             
                 <span class="post-meta-item-text">Comments: </span>
-                <a href="/2019/02/19/FFT2/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2019/02/19/FFT2/" itemprop="commentCount"></span>
+                <a 19 2019 href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif 02 fft2 #comments" itemprop="discussionUrl">
+                  <span 19 2019 class="post-comments-count valine-comment-count" data-xid="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif 02 fft2 " itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -581,7 +581,7 @@
       
 
       
-        <p><img src="https://img.shields.io/badge/%E9%9A%BE%E5%BA%A6-%E7%9C%81%E9%80%89-darkviolet.svg" alt></p>
+        <link rel="stylesheet" class="aplayer-secondary-style-marker" href="/QWQ/assets/css/APlayer.min.css"><script src="/QWQ/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p><img src="https://img.shields.io/badge/%E9%9A%BE%E5%BA%A6-%E7%9C%81%E9%80%89-darkviolet.svg" alt></p>
 <p>上一篇多项式：<a href="http://www.orchidany.cf/2019/02/19/FFT1/">多项式1·普通的FFT</a></p>
 <hr>
 <h1 id="rm-0x01-quad-Preface"><a href="#rm-0x01-quad-Preface" class="headerlink" title="$\rm{0x01\quad Preface}$"></a>$\rm{0x01\quad Preface}$</h1><p>今天是$Feb.19^{th}$，开学前一天，现在是北京时间下午$10:05$，我还剩除了英语物理的所有作业没做 … 耶，真开心。</p>
@@ -665,9 +665,9 @@
         
         <div class="post-tags">
           
-            <a href="/tags/学习笔记/" rel="tag"><i class="fa fa-tag"></i> 学习笔记</a>
+            <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif tags 学习笔记 " rel="tag"><i class="fa fa-tag"></i> 学习笔记</a>
           
-            <a href="/tags/多项式-FFT/" rel="tag"><i class="fa fa-tag"></i> 多项式-FFT</a>
+            <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif tags 多项式-fft " rel="tag"><i class="fa fa-tag"></i> 多项式-FFT</a>
           
         </div>
       
@@ -680,7 +680,7 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/02/19/FFT1/" rel="next" title="多项式1·普通的FFT">
+              <a 19 2019 href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif 02 fft1 " rel="next" title="多项式1·普通的FFT">
                 <i class="fa fa-chevron-left"></i> 多项式1·普通的FFT
               </a>
             
@@ -690,7 +690,7 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/02/22/exBSGS/" rel="prev" title="BSGS-Senior·扩展的BSGS">
+              <a 22 2019 href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif 02 exbsgs " rel="prev" title="BSGS-Senior·扩展的BSGS">
                 BSGS-Senior·扩展的BSGS <i class="fa fa-chevron-right"></i>
               </a>
             
@@ -755,7 +755,7 @@
 
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
   
-    <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="Orchidany">
+    <img class="site-author-image" itemprop="image" src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif images avatar.png" alt="Orchidany">
   
   <p class="site-author-name" itemprop="name">Orchidany</p>
   <div class="site-description motion-element" itemprop="description">For code, science, tech. and more</div>
@@ -766,9 +766,9 @@
     
       <div class="site-state-item site-state-posts">
         
-          <a href="/archives/">
+          <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif archives ">
         
-          <span class="site-state-item-count">40</span>
+          <span class="site-state-item-count">45</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -780,7 +780,7 @@
       <div class="site-state-item site-state-categories">
         
           
-            <a href="/categories/">
+            <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif categories ">
           
         
         
@@ -807,7 +807,9 @@
         
           
         
-        <span class="site-state-item-count">11</span>
+          
+        
+        <span class="site-state-item-count">12</span>
         <span class="site-state-item-name">categories</span>
         </a>
       </div>
@@ -819,7 +821,7 @@
       <div class="site-state-item site-state-tags">
         
           
-            <a href="/tags/">
+            <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif tags ">
           
         
         
@@ -898,7 +900,19 @@
         
           
         
-        <span class="site-state-item-count">37</span>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        <span class="site-state-item-count">43</span>
         <span class="site-state-item-name">tags</span>
         </a>
       </div>
@@ -908,7 +922,7 @@
 
 
   <div class="feed-link motion-element">
-    <a href="/atom.xml" rel="alternate">
+    <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif atom.xml" rel="alternate">
       <i class="fa fa-rss"></i>RSS
     </a>
   </div>
@@ -1015,7 +1029,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共88.4k字</span>
+  <span class="post-count">博客全站共105.5k字</span>
 </div>
 
         
@@ -1107,41 +1121,41 @@
 
 
   
-  <script src="/lib/jquery/index.js?v=3.4.1"></script>
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif lib jquery index.js?v="3.4.1""></script>
 
   
-  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif lib velocity velocity.min.js?v="1.2.1""></script>
 
   
-  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif lib velocity velocity.ui.min.js?v="1.2.1""></script>
 
 
 
 
-  <script src="/js/utils.js?v=7.2.0"></script>
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif js utils.js?v="7.2.0""></script>
 
-  <script src="/js/motion.js?v=7.2.0"></script>
-
-
-
-  
-  
-
-
-  <script src="/js/affix.js?v=7.2.0"></script>
-
-  <script src="/js/schemes/pisces.js?v=7.2.0"></script>
-
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif js motion.js?v="7.2.0""></script>
 
 
 
   
-  <script src="/js/scrollspy.js?v=7.2.0"></script>
-<script src="/js/post-details.js?v=7.2.0"></script>
+  
+
+
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif js affix.js?v="7.2.0""></script>
+
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif js schemes pisces.js?v="7.2.0""></script>
 
 
 
-  <script src="/js/next-boot.js?v=7.2.0"></script>
+
+  
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif js scrollspy.js?v="7.2.0""></script>
+<script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif js post-details.js?v="7.2.0""></script>
+
+
+
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif js next-boot.js?v="7.2.0""></script>
 
   
 
@@ -1254,7 +1268,7 @@
     } else if (/json$/i.test(search_path)) {
       isXml = false;
     }
-    var path = "/" + search_path;
+    var path = "/blog/:if expand("%") == ""|browse confirm w|else|confirm w|endif/" + search_path;
     // monitor main search box;
 
     var onPopupClose = function (e) {

@@ -172,6 +172,16 @@ body {
     font-size: 17px;
   }
 }
+.hider_title {
+  font-family: "Microsoft Yahei";
+  cursor: pointer;
+}
+.close:after {
+  content: "▼";
+}
+.open:after {
+  content: "▲";
+}
 h1,
 h2,
 h3,
@@ -1786,7 +1796,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #44ffd6;
+  background: #a1ff71;
 }
 .feed-link,
 .chat {

@@ -32,23 +32,23 @@
 
 
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.2.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif images apple-touch-icon-next.png?v="7.2.0"">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/icon-32.png?v=7.2.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif images icon-32.png?v="7.2.0"">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/icon-32.png?v=7.2.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif images icon-32.png?v="7.2.0"">
 
 
-  <link rel="mask-icon" href="/images/logo.svg?v=7.2.0" color="#222">
-
-
-
+  <link rel="mask-icon" href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif images logo.svg?v="7.2.0"" color="#222">
 
 
 
-<link rel="stylesheet" href="/css/main.css?v=7.2.0">
+
+
+
+<link rel="stylesheet" href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif css main.css?v="7.2.0"/">
 
 
 
@@ -105,7 +105,7 @@
 
 
 
-<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+<link rel="stylesheet" href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif lib font-awesome css font-awesome.min.css?v="4.7.0"/">
 
 
 
@@ -117,7 +117,7 @@
 <script id="hexo.configurations">
   var NexT = window.NexT || {};
   var CONFIG = {
-    root: '/',
+    root: '/blog/:if expand("%") == ""|browse confirm w|else|confirm w|endif/',
     scheme: 'Gemini',
     version: '7.2.0',
     sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
@@ -144,27 +144,28 @@
   };
 </script>
 
-  <meta name="description" content="$NOIP2016$以及之前年份$NOIP$题目的泛做。">
+  <meta name="description" content="$NOIP2016$以及之前年份$NOIP$中比较水的题目的泛做。">
+<meta name="keywords" content="NOIP系列,数学&#x2F;不等式,动态规划-背包模型,搜索-剪枝,奇怪的技巧">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Old-NOIP 泛做">
-<meta property="og:url" content="http://www.orchidany.cf/2019/07/11/old-noip/index.html">
+<meta property="og:title" content="Old-NOIP 泛做一">
+<meta property="og:url" content="http://www.orchidany.cf/blog/2019/07/11/old-noip/index.html">
 <meta property="og:site_name" content="Orchidany&#39;w blog">
-<meta property="og:description" content="$NOIP2016$以及之前年份$NOIP$题目的泛做。">
+<meta property="og:description" content="$NOIP2016$以及之前年份$NOIP$中比较水的题目的泛做。">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2019-07-21T02:46:02.119Z">
+<meta property="og:updated_time" content="2019-07-25T09:55:18.940Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Old-NOIP 泛做">
-<meta name="twitter:description" content="$NOIP2016$以及之前年份$NOIP$题目的泛做。">
+<meta name="twitter:title" content="Old-NOIP 泛做一">
+<meta name="twitter:description" content="$NOIP2016$以及之前年份$NOIP$中比较水的题目的泛做。">
 
 
 
-  <link rel="alternate" href="/atom.xml" title="Orchidany'w blog" type="application/atom+xml">
+  <link rel="alternate" href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif atom.xml" title="Orchidany'w blog" type="application/atom+xml">
 
 
 
   
   
-  <link rel="canonical" href="http://www.orchidany.cf/2019/07/11/old-noip/">
+  <link rel="canonical" href="http://www.orchidany.cf/blog/2019/07/11/old-noip/">
 
 
 
@@ -175,7 +176,7 @@
 </script>
 
   
-  <title>Old-NOIP 泛做 | Orchidany'w blog</title>
+  <title>Old-NOIP 泛做一 | Orchidany'w blog</title>
   
 
 
@@ -232,7 +233,7 @@
     
 
     <div class="custom-logo-site-title">
-      <a href="/" class="brand" rel="start">
+      <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif " class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
         <span class="site-title">Orchidany'w blog</span>
         <span class="logo-line-after"><i></i></span>
@@ -274,7 +275,7 @@
 
     
 
-    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
+    <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif " rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
 
   </li>
         
@@ -290,7 +291,7 @@
 
     
 
-    <a href="/about/" rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>About</a>
+    <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif about " rel="section"><i class="menu-item-icon fa fa-fw fa-user"></i> <br>About</a>
 
   </li>
         
@@ -306,7 +307,7 @@
 
     
 
-    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Tags</a>
+    <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif tags " rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Tags</a>
 
   </li>
         
@@ -322,7 +323,7 @@
 
     
 
-    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Categories</a>
+    <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif categories " rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Categories</a>
 
   </li>
         
@@ -338,7 +339,7 @@
 
     
 
-    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
+    <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif archives " rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
 
   </li>
         
@@ -354,7 +355,7 @@
 
     
 
-    <a href="/Friends/" rel="section"><i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br>Friends</a>
+    <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif friends " rel="section"><i class="menu-item-icon fa fa-fw fa-heartbeat"></i> <br>Friends</a>
 
   </li>
 
@@ -431,12 +432,12 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.orchidany.cf/2019/07/11/old-noip/">
+    <link 11 2019 itemprop="mainEntityOfPage" href="http://www.orchidany.cf/blog/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif 07 old-noip ">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Orchidany">
       <meta itemprop="description" content="For code, science, tech. and more">
-      <meta itemprop="image" content="/images/avatar.png">
+      <meta itemprop="image" content="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif images avatar.png">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -448,7 +449,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Old-NOIP 泛做
+          <h1 class="post-title" itemprop="name headline">Old-NOIP 泛做一
 
               
             
@@ -489,7 +490,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2019-07-21 10:46:02" itemprop="dateModified" datetime="2019-07-21T10:46:02+08:00">2019-07-21</time>
+                <time title="Modified: 2019-07-25 17:55:18" itemprop="dateModified" datetime="2019-07-25T17:55:18+08:00">2019-07-25</time>
               </span>
             
           
@@ -503,7 +504,14 @@
                 <span class="post-meta-item-text">In</span>
               
               
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/题解/" itemprop="url" rel="index"><span itemprop="name">题解</span></a></span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif categories 题解 " itemprop="url" rel="index"><span itemprop="name">题解</span></a></span>
+
+                
+                
+                  , 
+                
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif categories 题解 luogu " itemprop="url" rel="index"><span itemprop="name">Luogu</span></a></span>
 
                 
                 
@@ -521,8 +529,8 @@
                 </span>
             
                 <span class="post-meta-item-text">Comments: </span>
-                <a href="/2019/07/11/old-noip/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2019/07/11/old-noip/" itemprop="commentCount"></span>
+                <a 11 2019 href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif 07 old-noip #comments" itemprop="discussionUrl">
+                  <span 11 2019 class="post-comments-count valine-comment-count" data-xid="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif 07 old-noip " itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -549,7 +557,7 @@
           
 
           
-            <div class="post-description">$NOIP2016$以及之前年份$NOIP$题目的泛做。</div>
+            <div class="post-description">$NOIP2016$以及之前年份$NOIP$中比较水的题目的泛做。</div>
           
 
         </div>
@@ -565,7 +573,37 @@
       
 
       
-        <p>你以为我会鸽，这之后我鸽了，其本质也是一种不鸽。</p>
+        <link rel="stylesheet" class="aplayer-secondary-style-marker" href="/QWQ/assets/css/APlayer.min.css"><script src="/QWQ/assets/js/APlayer.min.js" class="aplayer-secondary-script-marker"></script><p>首先简介一下这篇文章的来历……</p>
+<p>此时的我正在瞎翻之前做过的、看起来还可以的NOIP水题，觉得哪个地方值得注意就整了下来。然而实际上我是只想整理“泛做二”里的题目。不过一想似乎自己基础不扎实，于是才有了这篇水文。</p>
+<h1 id="1-2013B-火柴排队"><a href="#1-2013B-火柴排队" class="headerlink" title="$1~2013B$ 火柴排队"></a>$1~2013B$ 火柴排队</h1><p><a href="https://www.luogu.org/problem/P1966" target="_blank" rel="noopener">Link</a></p>
+<p>这真是个水题。但是之前做的时候没意识到一些问题，前几天翻来看看又把这个题秒了一遍。</p>
+<p>观察整个式子，我们拆开之后就发现是在最小化$-\sum a_ib_i$，也就是最大化$\sum a_ib_i$。然后根据选修4-5里面的<strong>排序不等式</strong>，逆序和&lt;乱序和&lt;顺序和，直接找逆序对就好。</p>
+<p><del>偷偷学数学真有用啊/kk</del></p>
+<h1 id="2-2014C-飞扬的小鸟"><a href="#2-2014C-飞扬的小鸟" class="headerlink" title="$2 ~2014C$ 飞扬的小鸟"></a>$2 ~2014C$ 飞扬的小鸟</h1><p><a href="https://www.luogu.org/problem/P1941" target="_blank" rel="noopener">Link</a></p>
+<p>……一道gou题。</p>
+<p>当时全天下都知道状态$f_{i,j}$就我不会转移…背包其实挺显然的，上升的时候做完全背包，注意由于即使🐦在天花板里面($h= m$)时也可以跳，所以多转移几次， 且注意既可以从i-1转移过来，也可以从现在的i转移过来；下降的时候做反向值域的01背包。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; N &gt;&gt; M &gt;&gt; K ; ans = Inf ;</span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">1</span> ; i &lt;= N ; ++ i) </span><br><span class="line">      <span class="built_in">scanf</span>(<span class="string">"%d%d"</span>, &amp;up[i], &amp;dw[i]) ;</span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">1</span> ; i &lt;= N ; ++ i) </span><br><span class="line">      Wd[i][<span class="number">0</span>] = <span class="number">-1</span>, Wd[i][<span class="number">1</span>] = M + <span class="number">1</span> ; <span class="built_in">memset</span>(dp, <span class="number">63</span>, <span class="keyword">sizeof</span>(dp)) ;</span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">1</span> ; i &lt;= K ; ++ i) </span><br><span class="line">      <span class="built_in">scanf</span>(<span class="string">"%d"</span>, &amp;k), S[k] = <span class="number">1</span>, <span class="built_in">scanf</span>(<span class="string">"%d%d"</span>, &amp;Wd[k][<span class="number">0</span>], &amp;Wd[k][<span class="number">1</span>]) ;</span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span> ; i &lt;= M ; ++ i) dp[<span class="number">0</span>][i] = <span class="number">0</span> ;</span><br><span class="line">    <span class="comment">/*for (i = 2 ; i &lt;= N ; ++ i)</span></span><br><span class="line"><span class="comment">        for (j = Wd[i][0] + 1 ; j &lt; Wd[i][1] ; ++ j)&#123;</span></span><br><span class="line"><span class="comment">            dp[i][j] = dp[i - 1][j + dw[i]] ;</span></span><br><span class="line"><span class="comment">            for (k = 0 ; k &lt;= (j - Wd[i - 1][0] - 1) / up[i] ; ++ k)</span></span><br><span class="line"><span class="comment">                dp[i][j] = min(dp[i - 1][j - k * up[i]] + k, dp[i][j]) ;</span></span><br><span class="line"><span class="comment">        &#125;*/</span></span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">1</span> ; i &lt;= N ; ++ i)&#123;</span><br><span class="line">        <span class="keyword">for</span> (j = up[i] + <span class="number">1</span> ; j &lt;= M + up[i] ; ++ j)</span><br><span class="line">            dp[i][j] = min(dp[i - <span class="number">1</span>][j - up[i]], dp[i][j - up[i]]) + <span class="number">1</span> ;</span><br><span class="line">        <span class="keyword">for</span> (j = M + <span class="number">1</span> ; j &lt;= M + up[i] ; ++ j) </span><br><span class="line">          	dp[i][M] = min(dp[i][M], dp[i][j]) ;</span><br><span class="line">        <span class="keyword">for</span> (j = <span class="number">0</span> ; j &lt;= M - dw[i] ; j ++) </span><br><span class="line">          	dp[i][j] = min(dp[i][j], dp[i - <span class="number">1</span>][j + dw[i]]) ;</span><br><span class="line">        <span class="keyword">for</span> (j = <span class="number">0</span> ; j &lt;= Wd[i][<span class="number">0</span>] ; ++ j) dp[i][j] = Inf ; </span><br><span class="line">      	<span class="keyword">for</span> (j = Wd[i][<span class="number">1</span>] ; j &lt;= M ; j ++) dp[i][j] = Inf ;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">1</span> ; i &lt;= M ; ++ i) ans = min(ans, dp[N][i]) ; </span><br><span class="line">    <span class="keyword">if</span> (ans &lt; <span class="number">19260817</span>) <span class="keyword">return</span> <span class="built_in">printf</span>(<span class="string">"%d\n%d\n"</span>, <span class="number">1</span>, ans),<span class="number">0</span> ;</span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">1</span> ; i &lt;= N ; ++ i) S[i] = S[i - <span class="number">1</span>] + S[i] ; l = <span class="number">1</span>, r = N, p ;</span><br><span class="line">    <span class="keyword">while</span> (l &lt;= r)&#123;</span><br><span class="line">        mid = (l + r) &gt;&gt; <span class="number">1</span>, ans = Inf ;</span><br><span class="line">        <span class="keyword">for</span> (i = <span class="number">1</span> ; i &lt;= M ; ++ i) ans = min(ans, dp[mid][i]) ;</span><br><span class="line">        <span class="keyword">if</span> (ans &lt; <span class="number">19260817</span>) l = mid + <span class="number">1</span>, p = mid ; <span class="keyword">else</span> r = mid - <span class="number">1</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="built_in">cout</span> &lt;&lt; <span class="number">0</span> &lt;&lt; <span class="built_in">endl</span> &lt;&lt; S[p] &lt;&lt; <span class="built_in">endl</span> ; <span class="keyword">return</span> <span class="number">0</span> ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="3-2001C-统计单词数"><a href="#3-2001C-统计单词数" class="headerlink" title="$3~2001C$ 统计单词数"></a>$3~2001C$ 统计单词数</h1><p><a href="https://www.luogu.org/problem/P1026" target="_blank" rel="noopener">$Link$</a> 一道很水的DP，难点（如果可以称之为难的话）在于判断。然后此处用的是哈希，判断的时候就瞎判就好了（雾</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span> ;</span><br><span class="line">pair &lt;<span class="keyword">int</span>, <span class="keyword">int</span>&gt; p ; </span><br><span class="line"><span class="keyword">char</span> D[MAXLEN][<span class="number">10</span>] ;</span><br><span class="line"><span class="keyword">const</span> UN LL base = <span class="number">131</span> ;</span><br><span class="line">LL Hash[MAXLEN][MAXLEN], H[<span class="number">10</span>] ;</span><br><span class="line"><span class="built_in">stack</span>&lt; pair &lt;<span class="keyword">int</span>, <span class="keyword">int</span>&gt; &gt; s, s2 ;</span><br><span class="line"><span class="keyword">const</span> UN LL Mod = <span class="number">192183781721L</span>L ;</span><br><span class="line"><span class="keyword">int</span> dp[MAXLEN][<span class="number">50</span>], Len, Length[<span class="number">10</span>], o ;</span><br><span class="line"><span class="keyword">int</span> P, M, K, i, j, k, di, dj ; <span class="keyword">char</span> S[MAXLEN] ;     </span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">inline</span> LL <span class="title">Hashh</span><span class="params">(<span class="keyword">int</span> Mark)</span></span>&#123;</span><br><span class="line">	UN LL res = <span class="number">0</span> ;</span><br><span class="line">	<span class="keyword">if</span> (!Mark) &#123;</span><br><span class="line">		<span class="keyword">for</span> (k = j ; k &lt;= i ; ++ k)</span><br><span class="line">			res = (res * base + S[k]) % Mod ; </span><br><span class="line">		<span class="keyword">return</span> res ;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">for</span> (k = <span class="number">0</span> ; k &lt;= Length[Mark] ; ++k)</span><br><span class="line">		res = (res * base + D[Mark][k]) % Mod ;</span><br><span class="line">	<span class="keyword">return</span> res ;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">int</span> <span class="title">Sum</span><span class="params">(<span class="keyword">int</span> x, <span class="keyword">int</span> y)</span></span>&#123;</span><br><span class="line">	LL res[<span class="number">7</span>] ;</span><br><span class="line">	<span class="built_in">memset</span>(res, <span class="number">0</span>, <span class="keyword">sizeof</span>(res)) ;</span><br><span class="line">	<span class="keyword">for</span> (di = <span class="number">1</span>; di &lt;= M ; ++ di)</span><br><span class="line">		<span class="keyword">for</span> (dj = x ; dj &lt;= y - Length[di] ; ++ dj)</span><br><span class="line">			<span class="keyword">if</span> (Hash[dj][dj + Length[di]] == H[di]) ++ res[di] ;</span><br><span class="line">	<span class="keyword">while</span> (!s.empty()) &#123;</span><br><span class="line">		p = s.top() ;</span><br><span class="line">		res[p.first] &gt; res[p.second] ? res[p.second] : res[p.first] = <span class="number">0</span> ; </span><br><span class="line">		s.pop(), s2.push(p) ;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">while</span> (!s2.empty()) s.push(s2.top()), s2.pop() ;</span><br><span class="line">	<span class="keyword">return</span> res[<span class="number">1</span>] + res[<span class="number">2</span>] + res[<span class="number">3</span>] + res[<span class="number">4</span>] + res[<span class="number">5</span>] + res[<span class="number">6</span>] ;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">signed</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="built_in">cin</span> &gt;&gt; P &gt;&gt; K ;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span> ; i &lt; P ; ++ i) </span><br><span class="line">		<span class="built_in">scanf</span>(<span class="string">"%20s"</span>, S + i * <span class="number">20</span>) ;	<span class="built_in">cin</span> &gt;&gt; M ; Len = <span class="built_in">strlen</span>(S) ;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">1</span> ; i &lt;= M ; ++ i) </span><br><span class="line">		<span class="built_in">scanf</span>(<span class="string">"%s"</span>, D[i]), Length[i] = <span class="built_in">strlen</span>(D[i]) - <span class="number">1</span>, H[i] = Hashh(i) ;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">1</span> ; i &lt;= M ; ++ i)</span><br><span class="line">		<span class="keyword">for</span> (j = <span class="number">1</span> ; j &lt; i ; ++ j)&#123;</span><br><span class="line">			<span class="keyword">bool</span> flag = <span class="number">1</span> ;</span><br><span class="line">			<span class="keyword">for</span> (di = <span class="number">0</span> ; di &lt;= min(Length[j], Length[i]) ; ++ di)</span><br><span class="line">				<span class="keyword">if</span> (D[j][di] != D[i][di])&#123; flag = <span class="number">0</span> ; <span class="keyword">break</span> ; &#125;</span><br><span class="line">			<span class="keyword">if</span> (flag) s.push(&#123;i, j&#125;), ++ o ;</span><br><span class="line">		&#125;</span><br><span class="line">	<span class="keyword">for</span> (i = <span class="number">0</span> ; i &lt; Len ; ++ i)</span><br><span class="line">		<span class="keyword">for</span> (j = <span class="number">0</span> ; j &lt;= i ; ++ j) </span><br><span class="line">			Hash[j][i] = Hashh(<span class="number">0</span>) ;</span><br><span class="line">	<span class="comment">/*for (i = 0 ; i &lt; Len ; ++ i) </span></span><br><span class="line"><span class="comment">		for (j = 0 ; j &lt; i ; ++ j) </span></span><br><span class="line"><span class="comment">			printf("%d%c", Sum(j, i)," \n"[j == i - 1]) ;*/</span></span><br><span class="line">	<span class="keyword">for</span> (k = <span class="number">1</span> ; k &lt;= K ; ++ k)</span><br><span class="line">		<span class="keyword">for</span> (i = <span class="number">0</span> ; i &lt; Len ; ++ i)</span><br><span class="line">			<span class="keyword">for</span> (j = k - <span class="number">1</span> ; j &lt;= i ; ++ j)</span><br><span class="line">				dp[i][k] = max(dp[i][k], dp[max(<span class="number">0</span>, j - <span class="number">1</span>)][k - <span class="number">1</span>] + Sum(j, i)) ;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; dp[Len - <span class="number">1</span>][K] &lt;&lt; <span class="built_in">endl</span> ; <span class="keyword">return</span> <span class="number">0</span> ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="4-2005B-过河"><a href="#4-2005B-过河" class="headerlink" title="$4~2005B$ 过河"></a>$4~2005B$ 过河</h1><p><a href="https://www.luogu.org/problem/P1052" target="_blank" rel="noopener">$Link$</a></p>
+<p>也是一道很水的DP。整理这个题的原因是因为好久之前的当时做这题时用了一种诡异的做法，即通过对$\sqrt{1e9}$取模进行压缩，但是这显然不对因为1：我的写法没有处理mod之后位置相同的情况；再者转移过程也十分地不服责任：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> mod=<span class="number">32501</span>;</span><br><span class="line"><span class="keyword">int</span> f[<span class="number">200000</span>];</span><br><span class="line"><span class="keyword">bool</span> pos[<span class="number">200000</span>];</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">	<span class="keyword">int</span> n,l,r,m,cnt=<span class="number">0</span>;</span><br><span class="line">	<span class="built_in">cin</span>&gt;&gt;n&gt;&gt;l&gt;&gt;r&gt;&gt;m;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=m;i++)&#123;</span><br><span class="line">		<span class="keyword">int</span> x; <span class="built_in">cin</span>&gt;&gt;x;</span><br><span class="line">		pos[x%mod]=<span class="number">1</span>;	<span class="keyword">if</span>(l==r&amp;&amp;x%l==<span class="number">0</span>)cnt++;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="keyword">if</span>(l==r)&#123;	<span class="built_in">cout</span>&lt;&lt;cnt; <span class="keyword">return</span> <span class="number">0</span>;&#125;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=mod;i++) f[i]=MAXN;</span><br><span class="line">	f[<span class="number">0</span>]=<span class="number">0</span>;</span><br><span class="line">	<span class="keyword">for</span>(<span class="keyword">int</span> i=<span class="number">1</span>;i&lt;=mod;i++)</span><br><span class="line">	 <span class="keyword">for</span>(<span class="keyword">int</span> j=l;j&lt;=r;j++)&#123;</span><br><span class="line">		<span class="keyword">int</span> k=i%mod;</span><br><span class="line">		<span class="keyword">if</span>(i&gt;=j)f[i]=min(f[i],f[i-j]+pos[k]);</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">cout</span>&lt;&lt;f[mod];</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>但问题是，它过了，这就很迷。仔细想想，似乎可能是因为石头数量太小了，只有100，所以随机丢到空间里去期望意义上每$1e7$会有一块石头，且mod之后位于同一个位置的概率的相反数是$32501$，所以很难有这种数据出现……换句话说，数据水死了。</p>
+<p>然而真正的做法应该是“2520缩”，意思就是因为题目中的 s~t 的取值范围是 1~10，所以取$lcm(1,2,..,10)=2520$是可行的。</p>
+<h1 id="5-2009B-Hankson的趣味题"><a href="#5-2009B-Hankson的趣味题" class="headerlink" title="$5~2009B$ Hankson的趣味题"></a>$5~2009B$ Hankson的趣味题</h1><p><a href="https://www.luogu.org/problem/P1072" target="_blank" rel="noopener">$Link$</a></p>
+<p>整这个题只是因为情怀……</p>
+<p>遥不可及的过去啊……<a href="https://pks-loving.blog.luogu.org/solution-p1072" target="_blank" rel="noopener">Solution</a></p>
+<h1 id="6-2004D-虫食算"><a href="#6-2004D-虫食算" class="headerlink" title="$6~2004D$ 虫食算"></a>$6~2004D$ 虫食算</h1><p><a href="https://www.luogu.org/problem/P1092" target="_blank" rel="noopener">$Link$</a></p>
+<p>整这个题更是因为情怀了……</p>
+<p>当时是何时？不记得是末冬还是暑假，只记得我十分开心地去高中部培训，吃早饭之前跟rqy瞎聊，聊什么“是不是只要我发明出可以处理负权边的Dijkstra就可以上清华了”，不自觉地聊到了这道题。嗯…场景什么的都历历在目，尤其是餐厅东边洒落的白色的阳光，一直在我的记忆中闪亮…</p>
+<p>可惜我不是当年那个我了，rqy也不是当年那个rqy了，大家都在迈着自己的步子踏实地前进，终于还是会分道扬镳吧……</p>
+<p>诶诶我在干什么，qaq，学习，学习……</p>
+<p>暴力就是枚举全排列，但显然只有30pts。 于是考虑一个可行性剪枝，其实就是每次dfs刚开始先check一遍合不合法。但是整理这个题的目的也不在于此，而在于其中的<code>pos</code>数组，其实就是用来记录从低位到高位每个未知数的出现顺序的。那么实际上这也是一个优秀的剪枝，因为在dfs里面我们可以根据此对靠近低位的未知数先赋值、先判断（第一个剪枝）。</p>
+<p>所以大概就是可行性剪枝和最优性剪枝相辅相成的结果，比较巧妙。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">char</span> _Char ; <span class="keyword">int</span> pos[MAX] ;</span><br><span class="line"><span class="keyword">int</span> Ans[MAX] ; <span class="keyword">bool</span> mark[MAX] ;</span><br><span class="line"><span class="keyword">int</span> N, A[MAX], B[MAX], C[MAX], tot ;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">Print</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; N ; ++ i) <span class="built_in">cout</span> &lt;&lt; Ans[i] &lt;&lt; <span class="string">" "</span> ; <span class="built_in">exit</span>(<span class="number">0</span>) ;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">bool</span> <span class="title">Judge</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> X = <span class="number">0</span> ;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = N - <span class="number">1</span>; i &gt;= <span class="number">0</span> ; -- i)&#123;</span><br><span class="line">        <span class="keyword">int</span> NA = Ans[A[i]], NB = Ans[B[i]], NC = Ans[C[i]] ;</span><br><span class="line">        <span class="keyword">if</span>((NA + NB + X) % N != NC) <span class="keyword">return</span> <span class="number">0</span> ;</span><br><span class="line">        X = (NA + NB + X) / N ;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">1</span> ;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">bool</span> <span class="title">Speed</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span>(Ans[A[<span class="number">0</span>]] + Ans[B[<span class="number">0</span>]] &gt;= N) <span class="keyword">return</span> <span class="number">0</span> ;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = N - <span class="number">1</span>; i &gt;= <span class="number">0</span> ; i --)&#123;</span><br><span class="line">        <span class="keyword">int</span> NA = Ans[A[i]], NB = Ans[B[i]], NC = Ans[C[i]] ;</span><br><span class="line">        <span class="keyword">if</span> (NA == <span class="number">-1</span> || NB == <span class="number">-1</span> || NC == <span class="number">-1</span>) <span class="keyword">continue</span> ;</span><br><span class="line">        <span class="keyword">if</span> ((NA + NB) % N != NC &amp;&amp; (NA + NB + <span class="number">1</span>) % N != NC) <span class="keyword">return</span> <span class="number">0</span> ;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="keyword">return</span> <span class="number">1</span> ;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">dfs</span><span class="params">(<span class="keyword">int</span> sum)</span></span>&#123;</span><br><span class="line">    <span class="keyword">if</span> (!Speed()) <span class="keyword">return</span> ;</span><br><span class="line">    <span class="keyword">if</span> (sum == N + <span class="number">1</span>)&#123;<span class="keyword">if</span> (Judge()) Print() ; <span class="keyword">return</span> ;&#125;</span><br><span class="line">    <span class="keyword">for</span>(<span class="keyword">int</span> i = N - <span class="number">1</span>; i &gt;= <span class="number">0</span> ; -- i)</span><br><span class="line">        <span class="keyword">if</span>(!mark[i])&#123;</span><br><span class="line">            Ans[pos[sum]] = i, mark[i] = <span class="number">1</span> ;</span><br><span class="line">            dfs(sum + <span class="number">1</span>) ;</span><br><span class="line">            Ans[pos[sum]] = <span class="number">-1</span>, mark[i] = <span class="number">0</span> ;</span><br><span class="line">        &#125;</span><br><span class="line">    <span class="keyword">return</span> ;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">work_pos</span><span class="params">(<span class="keyword">int</span> x)</span></span>&#123;<span class="keyword">if</span>(!mark[x])  mark[x] = <span class="number">1</span>,  pos[++ tot] = x ;&#125;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="built_in">cin</span> &gt;&gt; N ;</span><br><span class="line">    fill(Ans, Ans + MAX + <span class="number">2</span>, <span class="number">-1</span>) ;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; N ; ++ i)&#123; <span class="built_in">cin</span> &gt;&gt; _Char ; A[i] = _Char - <span class="string">'A'</span> ;&#125;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; N ; ++ i)&#123; <span class="built_in">cin</span> &gt;&gt; _Char ; B[i] = _Char - <span class="string">'A'</span> ;&#125;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; N ; ++ i)&#123; <span class="built_in">cin</span> &gt;&gt; _Char ; C[i] = _Char - <span class="string">'A'</span> ;&#125;</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">int</span> i = N - <span class="number">1</span>; i &gt;= <span class="number">0</span> ; -- i) </span><br><span class="line">      work_pos(A[i]), work_pos(B[i]), work_pos(C[i]) ;</span><br><span class="line">    fill(mark, mark + MAX + <span class="number">2</span>, <span class="number">0</span>) ; dfs(<span class="number">1</span>) ; <span class="keyword">return</span> <span class="number">0</span> ;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h1 id="rm-Afterword"><a href="#rm-Afterword" class="headerlink" title="$\rm{Afterword}$"></a>$\rm{Afterword}$</h1><blockquote>
+<p>遥望扬州满地雪，不知已是惊蛰节。</p>
+</blockquote>
 
       
     </div>
@@ -591,6 +629,23 @@
 
     <footer class="post-footer">
       
+        
+          
+        
+        <div class="post-tags">
+          
+            <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif tags noip系列 " rel="tag"><i class="fa fa-tag"></i> NOIP系列</a>
+          
+            <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif tags 数学-不等式 " rel="tag"><i class="fa fa-tag"></i> 数学/不等式</a>
+          
+            <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif tags 动态规划-背包模型 " rel="tag"><i class="fa fa-tag"></i> 动态规划-背包模型</a>
+          
+            <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif tags 搜索-剪枝 " rel="tag"><i class="fa fa-tag"></i> 搜索-剪枝</a>
+          
+            <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif tags 奇怪的技巧 " rel="tag"><i class="fa fa-tag"></i> 奇怪的技巧</a>
+          
+        </div>
+      
 
       
       
@@ -600,8 +655,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/07/11/NOIP2017/" rel="next" title="NOIP2017泛做">
-                <i class="fa fa-chevron-left"></i> NOIP2017泛做
+              <a 11 2019 href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif 07 old-noip2 " rel="next" title="Old-NOIP 泛做二">
+                <i class="fa fa-chevron-left"></i> Old-NOIP 泛做二
               </a>
             
           </div>
@@ -610,7 +665,7 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2019/07/18/Nine/" rel="prev" title="随想九·意义">
+              <a 18 2019 href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif 07 nine " rel="prev" title="随想九·意义">
                 随想九·意义 <i class="fa fa-chevron-right"></i>
               </a>
             
@@ -660,13 +715,22 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            Table of Contents
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            Overview
+          </li>
+        </ul>
+      
 
-      <div class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <div class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
 
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
   
-    <img class="site-author-image" itemprop="image" src="/images/avatar.png" alt="Orchidany">
+    <img class="site-author-image" itemprop="image" src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif images avatar.png" alt="Orchidany">
   
   <p class="site-author-name" itemprop="name">Orchidany</p>
   <div class="site-description motion-element" itemprop="description">For code, science, tech. and more</div>
@@ -677,9 +741,9 @@
     
       <div class="site-state-item site-state-posts">
         
-          <a href="/archives/">
+          <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif archives ">
         
-          <span class="site-state-item-count">40</span>
+          <span class="site-state-item-count">45</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -691,7 +755,7 @@
       <div class="site-state-item site-state-categories">
         
           
-            <a href="/categories/">
+            <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif categories ">
           
         
         
@@ -718,7 +782,9 @@
         
           
         
-        <span class="site-state-item-count">11</span>
+          
+        
+        <span class="site-state-item-count">12</span>
         <span class="site-state-item-name">categories</span>
         </a>
       </div>
@@ -730,7 +796,7 @@
       <div class="site-state-item site-state-tags">
         
           
-            <a href="/tags/">
+            <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif tags ">
           
         
         
@@ -809,7 +875,19 @@
         
           
         
-        <span class="site-state-item-count">37</span>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        <span class="site-state-item-count">43</span>
         <span class="site-state-item-name">tags</span>
         </a>
       </div>
@@ -819,7 +897,7 @@
 
 
   <div class="feed-link motion-element">
-    <a href="/atom.xml" rel="alternate">
+    <a href="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif atom.xml" rel="alternate">
       <i class="fa fa-rss"></i>RSS
     </a>
   </div>
@@ -866,6 +944,23 @@
       </div>
 
       
+      <!--noindex-->
+        <div class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+            
+            
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#1-2013B-火柴排队"><span class="nav-number">1.</span> <span class="nav-text">$1~2013B$ 火柴排队</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#2-2014C-飞扬的小鸟"><span class="nav-number">2.</span> <span class="nav-text">$2 ~2014C$ 飞扬的小鸟</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#3-2001C-统计单词数"><span class="nav-number">3.</span> <span class="nav-text">$3~2001C$ 统计单词数</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#4-2005B-过河"><span class="nav-number">4.</span> <span class="nav-text">$4~2005B$ 过河</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#5-2009B-Hankson的趣味题"><span class="nav-number">5.</span> <span class="nav-text">$5~2009B$ Hankson的趣味题</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#6-2004D-虫食算"><span class="nav-number">6.</span> <span class="nav-text">$6~2004D$ 虫食算</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#rm-Afterword"><span class="nav-number">7.</span> <span class="nav-text">$\rm{Afterword}$</span></a></li></ol></div>
+            
+
+          </div>
+        </div>
+      <!--/noindex-->
+      
 
       
 
@@ -909,7 +1004,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共88.4k字</span>
+  <span class="post-count">博客全站共105.5k字</span>
 </div>
 
         
@@ -1001,41 +1096,41 @@
 
 
   
-  <script src="/lib/jquery/index.js?v=3.4.1"></script>
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif lib jquery index.js?v="3.4.1""></script>
 
   
-  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif lib velocity velocity.min.js?v="1.2.1""></script>
 
   
-  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif lib velocity velocity.ui.min.js?v="1.2.1""></script>
 
 
 
 
-  <script src="/js/utils.js?v=7.2.0"></script>
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif js utils.js?v="7.2.0""></script>
 
-  <script src="/js/motion.js?v=7.2.0"></script>
-
-
-
-  
-  
-
-
-  <script src="/js/affix.js?v=7.2.0"></script>
-
-  <script src="/js/schemes/pisces.js?v=7.2.0"></script>
-
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif js motion.js?v="7.2.0""></script>
 
 
 
   
-  <script src="/js/scrollspy.js?v=7.2.0"></script>
-<script src="/js/post-details.js?v=7.2.0"></script>
+  
+
+
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif js affix.js?v="7.2.0""></script>
+
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif js schemes pisces.js?v="7.2.0""></script>
 
 
 
-  <script src="/js/next-boot.js?v=7.2.0"></script>
+
+  
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif js scrollspy.js?v="7.2.0""></script>
+<script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif js post-details.js?v="7.2.0""></script>
+
+
+
+  <script src="/blog/:if expand(" %")="=" ""|browse confirm w|else|confirm w|endif js next-boot.js?v="7.2.0""></script>
 
   
 
@@ -1148,7 +1243,7 @@
     } else if (/json$/i.test(search_path)) {
       isXml = false;
     }
-    var path = "/" + search_path;
+    var path = "/blog/:if expand("%") == ""|browse confirm w|else|confirm w|endif/" + search_path;
     // monitor main search box;
 
     var onPopupClose = function (e) {
